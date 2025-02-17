@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>DOPC_design_document</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Design Document of DOPC service</h1>
+
+<p><strong>Author: Danmei Huang</strong></p>
+
+<p><strong>Date: 2025-01-25</strong></p>
+
+<p>The task of the project is to develop a DOPC (Delivery Order Price Calculator) service for Wolt. It is an imaginary backend service which calculates the total price and price breakdown of a delivery order for a user.</p>
+
+<p>DOPC interacts with the Home Assignment API to fetch venue related data required to calculate the prices. The term venue refers to any kind of restaurant / shop / store. It first requests for the venue&#39;s location, then calculates the price based on its distance to the user and the price rules. </p>
+
+<p>The DOPC service provides a single endpoint: <code>GET /api/v1/delivery-order-price</code>, which takes the following as query parameters:</p>
+
+<ul>
+<li>venue_slug (string): The unique identifier (slug) for the venue from which the delivery order will be placed</li>
+<li>cart_value (integer): The total value of the items in the shopping cart</li>
+<li>user_lat (number with decimal point): The latitude of the user&#39;s location</li>
+<li>user_lon (number with decimal point): The longitude of the user&#39;s location</li>
+</ul>
+
+<p>The endpoint should return a JSON response in the following format:</p>
+
+<div><pre><code class="language-JSON">{
+  &quot;total_price&quot;: 1190,
+  &quot;small_order_surcharge&quot;: 0,
+  &quot;cart_value&quot;: 1000,
+  &quot;delivery&quot;: {
+    &quot;fee&quot;: 190,
+    &quot;distance&quot;: 177
+  }
+}</code></pre></div>
+
+<p>where</p>
+
+<ul>
+<li>total_price (integer): The calculated total price</li>
+<li>small_order_surcharge (integer): The calculated small order surcharge</li>
+<li>cart_value (integer): The cart value. This is the same as what was got as query parameter.</li>
+<li>delivery (object): An object containing
+
+<ul>
+<li>fee (integer): The calculated delivery fee</li>
+<li>distance (integer): The calculated delivery distance in meters</li>
+</ul></li>
+</ul>
+
+<p>Home Assignment API is a backend service from which DOPC requests for data. It provides two JSON endpoints:</p>
+
+<ul>
+<li>Static information about a venue: 
+<code>https://consumer-api.development.dev.woltapi.com/home-assignment-api/v1/venues/home-assignment-venue-helsinki/static</code></li>
+<li>Dynamic information about a venue
+<code>https://consumer-api.development.dev.woltapi.com/home-assignment-api/v1/venues/home-assignment-venue-helsinki/dynamic</code></li>
+</ul>
+
+<p>DOPC requests for the location of the venue <code>[longitude, latitude]</code> from the static endpoint. It requests for <code>order_minimum_no_surcharge</code>, <code>base_price</code>, and <code>distance_ranges</code> from the dynamic endpoint.</p>
+
+<p>More details about the task can be found <a href="https://github.com/woltapp/backend-internship-2025">here</a>.</p>
+
+<h2 id="toc_1">1 General Work Flow</h2>
+
+<p>Without considering potential errors, the entire workflow for processing a user&#39;s request can be divided into 7 states：</p>
+
+<ul>
+<li>S1: get requests from users</li>
+<li>S2: parse parameters of request (venue_slug, cart_value, user_lat, user_lon)</li>
+<li>S3: query Home Assignment API (static), extract venue coordinates: longitude and latitude (lat, lon)</li>
+<li>S4: calculate distance between the venue and the user</li>
+<li>S5: query Home Assignment API (dynamic)，extract pricing plan (order_minimum_no_surcharge, base_price, distance_ranges) </li>
+<li>S6: calculate delivery fee according to the distance and pricing plan</li>
+<li>S7: send responses back to users (total_price, small_order_surcharge, cart_value, delivery)</li>
+</ul>
+
+<p><img src="images/work_flow.png" alt="DOPC Workflow" title="Delivery Order Price Calculator Workflow"></p>
+
+<p>The workflow can be divided into three types of states:</p>
+
+<ul>
+<li>User interaction states (S1 and S7, shown in blue in the flowchart): Where DOPC communicates directly with users</li>
+<li>API interaction states (S3 and S5, shown in pink): Where DOPC makes requests to the Home Assignment API</li>
+<li>Local processing states (S2, S4, and S6, shown in white): Where DOPC performs calculations and validations internally</li>
+</ul>
+
+<h2 id="toc_2">2 Full Work Flow with Error Handling</h2>
+
+<p>Since some states involve logic that are out of our control, the complete workflow incorporates error handling in four critical states:</p>
+
+<ul>
+<li>State 2 (Parameter Validation): Verifies user input parameters like venue<em>slug, cart</em>value, and coordinates. Invalid inputs result in Validation Errors.</li>
+<li>State 6 (Business Logic): Validates calculated results against business rules, such as minimum order amounts and delivery fee limits. Violations trigger Business Logic Errors.</li>
+<li>States 3 and 5 (API Communication): Handle potential Network Errors when interacting with the Home Assignment API, including timeouts, connection failures, and invalid responses.</li>
+</ul>
+
+<p>When a user request fails to be processed, DOPC will return the processing status and corresponding error message to the user without terminating the entire process.</p>
+
+<p><img src="images/work_flow_with_error_handling.png" alt="DOPC Workflow"></p>
+
+<h2 id="toc_3">3 Implementation</h2>
+
+<h3 id="toc_4">3.1 Tech Selection</h3>
+
+<p>DOPC is implemented using Python and the aiohttp web framework for several key reasons:</p>
+
+<ul>
+<li>Python was chosen as the programming language due to its extensive ecosystem and my familiarity with it</li>
+<li>aiohttp provides excellent support for asynchronous I/O and high concurrency, which is critical for handling multiple simultaneous requests efficiently</li>
+<li>The framework is lightweight yet powerful, making it ideal for a focused microservice like DOPC</li>
+<li>aiohttp&#39;s dual functionality as both HTTP client and server simplifies the architecture, as DOPC needs to both serve user requests and communicate with the Home Assignment API</li>
+<li>Built-in support for RESTful routing and middleware makes it easy to implement the required API endpoints</li>
+<li>Integration with validation libraries like pydantic enables robust request/response handling and error management</li>
+<li>The async/await syntax results in clean, maintainable code that clearly expresses the asynchronous flow</li>
+<li>The framework&#39;s modular design allows for easy scaling through multiple service instances managed by a load balancer</li>
+</ul>
+
+<h3 id="toc_5">3.2 Major challenges</h3>
+
+<p>In the implementation, I have identified the following challenges:</p>
+
+<ul>
+<li>Error handling (see next section for details)</li>
+<li>Distance calculation in S4: we need to calculate the distance between two GPS locations on the earth surface (sphere surface), for which I use the solution provided by chatGPT. </li>
+<li>TCP connections reuse: For each user request, DOPC needs to query Home Assignment API twice. If we establish seperate TCP connections with the Home Assignment API for each user request, then the overhead will be high. It will be better if we could establish a stable TCP connection pool with the Home Assignment API and reuse them for each user request. </li>
+<li>Scalability: if we consider there are large amounts of incoming user requests, a single DOPC service may not be able to provide timely responses. Due to the nature of coroutine, a single DOPC service is a single process that can maximumly use one CPU core. My solution is to create a load balancer and allocate the requests to different DOPC servers.</li>
+</ul>
+
+<h3 id="toc_6">3.3 Overall Implementation Details</h3>
+
+<p>I have completed a scalable DOPC service, which mainly consists of the following parts：</p>
+
+<ul>
+<li><code>README.md</code></li>
+<li><code>DOPC_design_document.md</code>:       Design document of DOPC service</li>
+<li><code>config.toml</code>:                   Configuration file</li>
+<li><code>server.py</code>:                     DOPC server (call either <code>dopc_service.py</code> or <code>load_balancer.py</code>, set by <code>use_balancer_flag</code> in <code>config.toml</code>)</li>
+<li><code>dopc_service.py</code>:               A DOPC service, can run independently</li>
+<li><code>load_balancer.py</code>:              Load balancer</li>
+<li><code>mock_user_requests.py</code>:         User request simulator for integrate test</li>
+<li><code>mock_home_assignment_api.py</code>:   Home Assignment API simulator for integrate test</li>
+<li><code>test_rate_limits.py</code>:           Test rate limits of Home Assignment API</li>
+<li><code>images/</code>                        Image files directory</li>
+</ul>
+
+<h3 id="toc_7">3.4 Shared TCP connections in <code>dopc_service.py</code></h3>
+
+<p>In <code>dopc_service.py</code>, we use a shared session pool to improve the efficiency when interacting with Home Assignment API. Session pool allows connection reuse and reduces the overhead of creating and closing sessions for each request.</p>
+
+<div><pre><code class="language-python">class APIConnectionPool:
+    def __init__(self, pool_size: int = 5, health_check_interval: int = 30):
+        .
+        .
+        # Use lists for session pools
+        self.static_sessions = []
+        self.dynamic_sessions = []</code></pre></div>
+
+<p>There is an internal pointer (rotational increase) to select the corresponding sessions for each user request. Another key feature is that we check the health of the sessions by sending a request to Home Assignment API every 30 seconds, and replace it when necessary.</p>
+
+<h3 id="toc_8">3.5 Load Balancer (<code>load_balancer.py</code>) for large amounts of user requests</h3>
+
+<p><code>load_balancer.py</code> is a shechuler which starts multiple DOPC services as separate processes and forwards user requests to these DOPC services. Like <code>APIConnectionPool</code>, there are stable connections between the load_balancer and the DOPC services, as well as health check of the connections. </p>
+
+<p><img src="images/load_balancer.png" alt="load balancer"></p>
+
+<p>The following snippet shows how the load balancer start DOPC services.</p>
+
+<div><pre><code class="language-python">    async def start(self):
+        &quot;&quot;&quot;Initialize services and establish connections&quot;&quot;&quot;
+        print(f&quot;Starting {self.num_services} DOPC services...&quot;)
+        for i in range(self.num_services):
+            port = self.base_port + i
+            # Start service process
+            process = subprocess.Popen(
+                [&quot;python&quot;, &quot;dopc_service.py&quot;, str(port)],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True  # Get text output
+            )
+            self.services[port] = process</code></pre></div>
+
+<h3 id="toc_9">3.6 Semaphore for DOPC</h3>
+
+<p>To manage computational resources effectively, each DOPC service implements a Semaphore with a limit of 5000 concurrent requests. This ensures controlled resource utilization while maintaining service stability and responsiveness, as demonstrated in the following code snippet.</p>
+
+<div><pre><code class="language-python"># Create a global semaphore to limit concurrent requests
+request_semaphore = asyncio.Semaphore(N_MAX_REQUEST)  # Max concurrent requests
+
+# Define handlers
+async def calculate_delivery_price(request):
+    try:
+        # Try to acquire semaphore
+        async with request_semaphore:
+            # Log incoming request
+            current_time = time.strftime(&quot;%H:%M:%S&quot;)
+            print(f&quot;[{current_time}] Received request&quot;)</code></pre></div>
+
+<p>However, I think this might not be necessary since aiohttp web server (web.Application) has its own internal request handling mechanism to prevent overwhelming. But I just keep semaphore for DOPC in case of unexpected circumstances. </p>
+
+<h3 id="toc_10">3.7 Configuration file <code>config.toml</code></h3>
+
+<p>In <code>config.toml</code>, we can configure different options</p>
+
+<div><pre><code class="language-toml">[general]
+host=&quot;localhost&quot;
+use_balancer_flag=false   # if start load_balancer.py or dopc_service.py
+dopc_end_point=&#39;/api/v1/delivery-order-price&#39;
+dopc_port = 8000
+
+[dopc_service]
+mock_home_assignment_flag = false # if use mock_home_assignment_api.py
+n_max_request=5000  # maximum number of user requests that can be handled per dopc service process
+base_api_url = &quot;https://consumer-api.development.dev.woltapi.com/home-assignment-api/v1&quot;
+mock_base_api_url = &quot;http://localhost:10000/home-assignment-api/v1&quot;
+
+[dopc_balancer]
+service_port_start = 49152  # Using dynamic port range, port for dopc services
+num_services = 5 # number of dopc services</code></pre></div>
+
+<h2 id="toc_11">4 Error Handling Methods</h2>
+
+<p>DOPC implements a multi-layer error handling strategy to handle Validation Errors, Network Errors and Business Logic Errors.</p>
+
+<h3 id="toc_12">4.1 Validation Errors Handling (Pydantic)</h3>
+
+<p>It is uncertain whether there are Validation Errors when user send their requests. DOPC uses BaseModel for validation and type checking. When Errors happen, DOPC returns users a consistent error format:</p>
+
+<ul>
+<li>Success indicator (boolean)</li>
+<li>Error description (string)</li>
+</ul>
+
+<div><pre><code class="language-python">class DeliveryDetails(BaseModel):
+    fee: int = Field(..., gt=0, description=&quot;Delivery fee in cents&quot;)
+    distance: int = Field(..., gt=0, description=&quot;Distance in meters&quot;)
+
+    @field_validator(&#39;fee&#39;)
+    @classmethod
+    def validate_fee(cls, v):
+        if v &lt; 0:
+            raise ValueError(&#39;Delivery fee cannot be negative&#39;)
+        if v &gt; 1500000:  # 15000 EUR
+            raise ValueError(&#39;Delivery fee exceeds maximum allowed value&#39;)
+        return v</code></pre></div>
+
+<p>Key Models:</p>
+
+<ul>
+<li><code>DeliveryOrderRequest</code>: Validates incoming request parameters</li>
+<li><code>DeliveryPriceResponse</code>: Ensures response format consistency</li>
+<li><code>DeliveryDetails</code>: Validates delivery-specific data</li>
+</ul>
+
+<h3 id="toc_13">4.2 Network Errors Handling</h3>
+
+<p>It is uncertain whether there are Network Errors such as Timeouts, Connection failures, and API unavailable When DOPC makes requests to Home Assignment API or scheduler makes requests to multiple DOPC services, so some verification is also required. When Network Errors happen, DOPC returns users a consistent error format:</p>
+
+<ul>
+<li>Success indicator (boolean)</li>
+<li>Error description (string)</li>
+</ul>
+
+<div><pre><code class="language-python">
+async def make_request(self, session: ClientSession, url: str) -&gt; Tuple[bool, Dict[str, Any] | str]:
+    &quot;&quot;&quot;Make request with timeout handling&quot;&quot;&quot;
+    try:
+        async with session.get(url) as response:
+            if response.status == 200:
+                return True, await response.json()
+            else:
+                return False, f&quot;Request failed with status: {response.status}&quot;
+    except asyncio.TimeoutError:
+        return False, &quot;Request timed out&quot;
+    except Exception as e:
+        return False, f&quot;Request error: {str(e)}&quot;</code></pre></div>
+
+<h3 id="toc_14">4.3 Business Logic Errors Handling</h3>
+
+<p>It is uncertain whether there are Business Logic Errors such as Distance exceeded, Invalid coordinates and Price calculation in the data extracted from Home Assignment API, so some verification is also required. When Errors happen, DOPC returns users a consistent error format:</p>
+
+<ul>
+<li>Success indicator (boolean)</li>
+<li>Error description (string)</li>
+</ul>
+
+<p>Custom validation for coordinate data:</p>
+
+<div><pre><code class="language-python">def validate_coordinates(self, lat: float, lon: float) -&gt; Tuple[bool, str]:
+    &quot;&quot;&quot;Validate latitude and longitude values&quot;&quot;&quot;
+    try:
+        if not isinstance(lat, (int, float)) or not isinstance(lon, (int, float)):
+            return False, &quot;Coordinates must be numeric&quot;
+        if not -90 &lt;= lat &lt;= 90:
+            return False, f&quot;Invalid latitude: {lat}. Must be between -90 and 90&quot;
+        if not -180 &lt;= lon &lt;= 180:
+            return False, f&quot;Invalid longitude: {lon}. Must be between -180 and 180&quot;
+        return True, &quot;&quot;
+    except Exception as e:
+        return False, f&quot;Coordinate validation error: {str(e)}&quot;</code></pre></div>
+
+<h2 id="toc_15">5 Test</h2>
+
+<h3 id="toc_16">5.1 Unit Test</h3>
+
+<p>I did not perform unit test since the implementations only involve simple calculations and there are enough error handling to capture the errors.</p>
+
+<h3 id="toc_17">5.2 Integrate Test</h3>
+
+<h4 id="toc_18">5.2.1 Single user request test using curl</h4>
+
+<div><pre><code class="language-bash">curl &quot;http://localhost:8000/api/v1/delivery-order-price?venue_slug=home-assignment-venue-helsinki&amp;cart_value=2000&amp;user_lat=60.17094&amp;user_lon=24.93087&quot;</code></pre></div>
+
+<p>Reponse is as expected. DOPC returned a Json response:</p>
+
+<div><pre><code class="language-javascript">{
+       &quot;total_price&quot;: 2190,
+       &quot;small_order_surcharge&quot;: 0,
+       &quot;cart_value&quot;: 2000,
+       &quot;delivery&quot;: {
+           &quot;fee&quot;: 190,
+           &quot;distance&quot;: 177
+       }
+   }</code></pre></div>
+
+<div><pre><code class="language-bash">curl &quot;http://localhost:8000/api/v1/delivery-order-price?venue_slug=home-assignment-venue-helsinki&amp;cart_value=2000&amp;user_lat=200.17094&amp;user_lon=24.93087&quot;</code></pre></div>
+
+<p>Reponse is as expected. DOPC returned error information.</p>
+
+<div><pre><code class="language-bash">{&quot;success&quot;: false, &quot;error&quot;: &quot;Validation error: 1 validation error for DeliveryOrderRequest\nuser_lat\n  Value error, Latitude must be between -90 and 90 degrees [type=value_error, input_value=200.17094, input_type=float]\n    For further information visit https://errors.pydantic.dev/2.10/v/value_error&quot;}</code></pre></div>
+
+<h4 id="toc_19">5.2.2 Single user request test using Chrome</h4>
+
+<p>Test URL: <a href="http://localhost:8000/api/v1/delivery-order-price?venue_slug=home-assignment-venue-helsinki&amp;cart_value=1700&amp;user_lat=60.17094&amp;user_lon=24.93087">http://localhost:8000/api/v1/delivery-order-price?venue_slug=home-assignment-venue-helsinki&amp;cart_value=1700&amp;user_lat=60.17094&amp;user_lon=24.93087</a></p>
+
+<p>Or click <a href="http://localhost:8000/api/v1/delivery-order-price?venue_slug=home-assignment-venue-helsinki&amp;cart_value=1700&amp;user_lat=60.17094&amp;user_lon=24.93087">here</a> to test the service.</p>
+
+<p>Response is as expected:</p>
+
+<p><img src="images/response_chrome.png" alt="response"></p>
+
+<h4 id="toc_20">5.2.3 Batch user request test</h4>
+
+<p>While single user request testing confirms basic functionality of the DOPC service, it does not validate the service&#39;s ability to handle concurrent requests at scale - a critical requirement for production environments. To address this limitation, we developed <code>mock_user_requests.py</code>, a simulator tool that generates and sends multiple simultaneous requests to stress test the service under load.</p>
+
+<p>Start the simulator：</p>
+
+<div><pre><code class="language-bash">   # Default: 50 users, 0.5s delay between requests, 2 requests per user
+   python mock_user_requests.py
+
+   # Or, custom configuration
+   python mock_user_requests.py --users 50 --delay 0.5 --requests 2</code></pre></div>
+
+<p>Test results for simulating 50 users, 0.5s delay between requests, 2 requests per user:</p>
+
+<div><pre><code class="language-bash">    Starting simulation with 50 users...
+    User  13 | Rate Limited | Time: 0.459s
+    User  25 | Rate Limited | Time: 0.459s
+    ......
+    User  12 | Status: 200 | Time: 2.269s | Price: 1690 cents
+    User  18 | Status: 200 | Time: 2.269s | Price: 2082 cents
+    User  23 | Distance Exceeded | Time: 2.269s
+    ^C
+    Simulation completed in 2.56 seconds
+
+    === Test Summary ===
+    Total Users: 50
+    Requests per User: 2
+    Total Requests: 50
+
+    Response Breakdown:
+    ✅ Successful: 24 (48.0%)
+    📍 Distance Exceeded: 16 (32.0%)
+    ⏳ Rate Limited: 10 (20.0%)
+    ❌ Other Errors: 0 (0.0%)
+    🔌 Connection Errors: 0 (0.0%)
+
+    Timing Statistics:
+    Average Response Time: 1.315s
+    Min Response Time: 0.459s
+    Max Response Time: 2.269s
+
+    Simulation stopped by user</code></pre></div>
+
+<p>The test results demonstrate that DOPC successfully processed requests and handled errors as designed. However, a notable observation is that 20% of requests failed due to rate limiting. Further testing with the simulator consistently showed rate-limited failures around 30% of total requests. This concerning pattern warrants deeper investigation, which will be explored in the following section.</p>
+
+<h2 id="toc_21">6 Problems In Practice</h2>
+
+<p>Several issues were encountered during implementation and testing that require further investigation to determine whether they originate from DOPC or external factors.</p>
+
+<h3 id="toc_22">6.1 Request Failures Due to Rate Limiting</h3>
+
+<p>During testing with the user simulator, we observed a consistently high percentage of request failures due to rate limiting. We hypothesized that these failures stemmed from access restrictions imposed by the Home Assignment API rather than issues within DOPC itself. To verify this hypothesis, we conducted targeted testing of the Home Assignment API&#39;s rate limiting behavior using <code>test_rate_limits.py</code>, which sends 100 requests with a 0.1-second delay between each request. The test results, shown below, revealed that approximately 20% of direct requests to the Home Assignment API failed due to rate limiting, confirming that the API&#39;s built-in rate limiting mechanism is indeed the source of these failures.</p>
+
+<div><pre><code class="language-bash">python test_rate_limits.py
+
+Starting rate limit test at 2025-01-23 17:43:28.798051
+Making 100 requests with 0.1s delay between requests
+...
+=== Test Summary ===
+Duration: 12.34 seconds
+Total Requests: 100
+
+Response Breakdown:
+✅ Successful: 80 (80.0%)
+⏳ Rate Limited: 20 (20.0%)
+📍 Distance Exceeded: 0 (0.0%)
+❌ Other Errors: 0 (0.0%)
+🔌 Connection Errors: 0 (0.0%)
+
+Timing Statistics:
+Average Response Time: 1.504s
+Min Response Time: 0.583s
+Max Response Time: 2.208s
+Requests/Second: 8.1
+</code></pre></div>
+
+<h3 id="toc_23">6.2 Testing based on Mock Home Assignment API</h3>
+
+<p>To properly test the DOPC code in isolation, we created a simulator for the Home Assignment API called <code>mock_home_assignment_api.py</code> that removes the rate limiting constraints. Using this simulator in place of the actual Home Assignment API, we ran the user simulator tests again with the following results:</p>
+
+<div><pre><code class="language-bash">python mock_user_requests.py --users 50 --delay 0.5 --requests 2</code></pre></div>
+
+<div><pre><code class="language-bash">Starting simulation with 50 users...
+User   3 | Status: 200 | Time: 0.048s | Price: 3390 cents
+User   6 | Status: 200 | Time: 0.048s | Price: 2390 cents
+......
+User  15 | Status: 200 | Time: 0.004s | Price: 1390 cents
+User  34 | Distance Exceeded | Time: 0.002s
+User  38 | Status: 200 | Time: 0.002s | Price: 2390 cents
+
+User  33 | Distance Exceeded | Time: 0.187s
+^C
+Simulation completed in 5.50 seconds
+
+=== Test Summary ===
+Total Users: 50
+Requests per User: 2
+Total Requests: 100
+
+Response Breakdown:
+✅ Successful: 85 (85.0%)
+📍 Distance Exceeded: 15 (15.0%)
+⏳ Rate Limited: 0 (0.0%)
+❌ Other Errors: 0 (0.0%)
+🔌 Connection Errors: 0 (0.0%)
+
+Timing Statistics:
+Average Response Time: 0.121s
+Min Response Time: 0.002s
+Max Response Time: 0.212s
+
+Simulation stopped by user</code></pre></div>
+
+<p>The test results confirm that our implementation is working as intended. With the mock API that removes rate limiting, no requests failed due to rate limits, validating that our code itself is not the source of any rate limiting issues. This provides confidence in the robustness of our implementation.</p>
+
+<h2 id="toc_24">7 Feature Highlights</h2>
+
+<p>I would like to highlight some features in the DOPC implementation:</p>
+
+<ul>
+<li>load balancer</li>
+<li>Shared TCP connections (connections monitor and recover)</li>
+<li>mock user requests</li>
+<li>mock Home Assignment API</li>
+<li>parameter configuration in one place: <code>config.toml</code> </li>
+</ul>
+
+<p>These features may be useful in the actual production.</p>
+
+
+
+
+</body>
+
+</html>

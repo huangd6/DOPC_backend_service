@@ -1,0 +1,16 @@
+[general]
+host="localhost"
+use_balancer_flag= false   # if start load_balancer.py or dopc_service.py
+dopc_end_point='/api/v1/delivery-order-price'
+dopc_port = 8000
+
+[dopc_service]
+mock_home_assignment_flag = false # if use mock_home_assignment_api.py
+n_max_request=5000  # maximum number of user requests that can be handled per dopc service process
+base_api_url = "https://consumer-api.development.dev.woltapi.com/home-assignment-api/v1"
+mock_base_api_url = "http://localhost:10000/home-assignment-api/v1"
+
+[dopc_balancer]
+service_port_start = 49152  # Using dynamic port range, port for dopc services
+num_services = 5 # number of dopc services
+

@@ -1,0 +1,559 @@
+2025-01-25 10:08:39,009 - dopc_service_49156 - INFO - Starting DOPC service on port 49156
+2025-01-25 10:08:54,260 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.18562567455068', 'user_lon': '24.950198645780752')>
+2025-01-25 10:08:54,261 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,261 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,324 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.168023201892346', 'user_lon': '24.925362962807665')>
+2025-01-25 10:08:54,324 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,324 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,327 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.16953185981186', 'user_lon': '24.926810988575497')>
+2025-01-25 10:08:54,328 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,328 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,329 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.186376977524326', 'user_lon': '24.983619707002095')>
+2025-01-25 10:08:54,329 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,329 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,330 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.186746679929314', 'user_lon': '24.980736000807056')>
+2025-01-25 10:08:54,330 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,331 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,331 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.187513967291096', 'user_lon': '24.98180199156653')>
+2025-01-25 10:08:54,332 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,332 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,332 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.168982531753194', 'user_lon': '24.92352186420712')>
+2025-01-25 10:08:54,333 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,333 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,334 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16966248396445', 'user_lon': '24.92983376976712')>
+2025-01-25 10:08:54,334 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,334 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,335 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.159842275644706', 'user_lon': '24.944917348244395')>
+2025-01-25 10:08:54,335 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,335 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,341 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.169257268295354', 'user_lon': '24.933460766926405')>
+2025-01-25 10:08:54,341 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:54,341 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:54,654 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:54,675 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:54,676 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:54,685 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:54,702 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,160 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.1568824232747', 'user_lon': '24.945277305863133')>
+2025-01-25 10:08:58,161 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,161 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,168 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18524821219933', 'user_lon': '24.952131508032025')>
+2025-01-25 10:08:58,168 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,168 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,175 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.172199241203', 'user_lon': '24.93261920369297')>
+2025-01-25 10:08:58,175 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,175 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,179 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.16886361702683', 'user_lon': '24.92510185957631')>
+2025-01-25 10:08:58,180 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,180 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,185 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.17155710511344', 'user_lon': '24.93210134294097')>
+2025-01-25 10:08:58,186 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,186 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,190 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.18964635294404', 'user_lon': '24.980354762649895')>
+2025-01-25 10:08:58,190 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,191 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,194 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.17122865028816', 'user_lon': '24.932754563050864')>
+2025-01-25 10:08:58,195 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,195 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,224 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,246 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,253 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,259 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,338 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,340 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,343 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,491 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.15846589600819', 'user_lon': '24.945714829535003')>
+2025-01-25 10:08:58,491 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,491 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,553 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,630 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.170460637542504', 'user_lon': '24.93159893032497')>
+2025-01-25 10:08:58,631 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,631 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,695 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:08:58,731 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.1589426567432', 'user_lon': '24.943677264276452')>
+2025-01-25 10:08:58,731 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:08:58,731 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:08:58,797 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:12,034 - dopc_service_49156 - INFO - Starting DOPC service on port 49156
+2025-01-25 10:11:25,086 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.166765908001004', 'user_lon': '24.923632226681224')>
+2025-01-25 10:11:25,087 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,087 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,142 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.15894527002302', 'user_lon': '24.943760713235847')>
+2025-01-25 10:11:25,142 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,142 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,144 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.158215935632896', 'user_lon': '24.943485368394143')>
+2025-01-25 10:11:25,144 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,144 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,148 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.16974485217429', 'user_lon': '24.93298328217534')>
+2025-01-25 10:11:25,148 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,148 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,149 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.169215940008165', 'user_lon': '24.92610366468774')>
+2025-01-25 10:11:25,149 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,149 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,153 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.159227651000585', 'user_lon': '24.94542906265752')>
+2025-01-25 10:11:25,154 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,154 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,155 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.16871224644144', 'user_lon': '24.930310436593103')>
+2025-01-25 10:11:25,156 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,156 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,161 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.15686108490731', 'user_lon': '24.943297590253007')>
+2025-01-25 10:11:25,161 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,161 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,162 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.16891055885324', 'user_lon': '24.929829011651904')>
+2025-01-25 10:11:25,162 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,163 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,169 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.15643717822546', 'user_lon': '24.94565265229469')>
+2025-01-25 10:11:25,169 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:25,170 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:25,496 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:25,501 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:25,506 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:29,006 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.16774527816965', 'user_lon': '24.924911069761297')>
+2025-01-25 10:11:29,006 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:29,006 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:29,010 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.1847438308166', 'user_lon': '24.951952306095496')>
+2025-01-25 10:11:29,010 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:29,010 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:29,118 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:29,158 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:29,854 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18978272695613', 'user_lon': '24.98322172766052')>
+2025-01-25 10:11:29,854 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:29,854 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:29,912 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:30,031 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.18854286794066', 'user_lon': '24.984021875775596')>
+2025-01-25 10:11:30,031 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:30,031 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:30,117 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:30,119 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.16965800665771', 'user_lon': '24.933023311704517')>
+2025-01-25 10:11:30,119 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:30,119 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:30,182 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:30,208 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18425405803592', 'user_lon': '24.950739574291934')>
+2025-01-25 10:11:30,208 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:30,208 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:30,242 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16815836545157', 'user_lon': '24.92506128167334')>
+2025-01-25 10:11:30,242 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:30,243 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:30,268 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:30,317 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:30,334 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.1676416099934', 'user_lon': '24.927255458628306')>
+2025-01-25 10:11:30,334 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:30,334 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:30,404 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16953268833285', 'user_lon': '24.92470147447391')>
+2025-01-25 10:11:30,405 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:30,405 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:30,409 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.18580816284585', 'user_lon': '24.9502844495258')>
+2025-01-25 10:11:30,409 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:11:30,409 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:11:30,522 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:30,523 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:11:30,523 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:12:34,286 - dopc_service_49156 - INFO - Starting DOPC service on port 49156
+2025-01-25 10:12:53,657 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.18696403239975', 'user_lon': '24.952265825168713')>
+2025-01-25 10:12:53,657 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,658 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,717 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.170936164046516', 'user_lon': '24.930375704474795')>
+2025-01-25 10:12:53,717 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,717 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,741 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.15957081475869', 'user_lon': '24.943099139687014')>
+2025-01-25 10:12:53,741 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,741 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,752 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.167097677820195', 'user_lon': '24.924651716399705')>
+2025-01-25 10:12:53,752 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,756 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,757 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18424725432296', 'user_lon': '24.949177901934032')>
+2025-01-25 10:12:53,757 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,757 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,758 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18621091070869', 'user_lon': '24.980452386446352')>
+2025-01-25 10:12:53,758 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,758 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,759 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.169461122286755', 'user_lon': '24.93164083194696')>
+2025-01-25 10:12:53,759 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,759 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,760 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.16980730872711', 'user_lon': '24.930204444445398')>
+2025-01-25 10:12:53,760 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,760 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,761 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.18974155888037', 'user_lon': '24.98216805094184')>
+2025-01-25 10:12:53,761 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,761 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:53,767 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.15789227239137', 'user_lon': '24.944935868589255')>
+2025-01-25 10:12:53,767 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:53,768 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,211 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.16993725669261', 'user_lon': '24.927302621776807')>
+2025-01-25 10:12:57,212 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,212 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,254 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.156623705627965', 'user_lon': '24.94487960999158')>
+2025-01-25 10:12:57,254 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,254 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,277 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.16697240476399', 'user_lon': '24.925346258951684')>
+2025-01-25 10:12:57,277 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,278 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,294 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.15768489836122', 'user_lon': '24.94273993274536')>
+2025-01-25 10:12:57,294 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,294 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,315 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.168776996172895', 'user_lon': '24.930827649541733')>
+2025-01-25 10:12:57,315 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,315 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,324 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.169497179138055', 'user_lon': '24.933157651997224')>
+2025-01-25 10:12:57,324 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,324 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,338 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.16940265767516', 'user_lon': '24.93126226075002')>
+2025-01-25 10:12:57,338 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,340 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,343 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.1846776393651', 'user_lon': '24.950349409762364')>
+2025-01-25 10:12:57,344 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,344 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,353 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.17046289191268', 'user_lon': '24.926818164665512')>
+2025-01-25 10:12:57,353 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,353 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:12:57,358 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.15997462298823', 'user_lon': '24.945861564712327')>
+2025-01-25 10:12:57,358 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:12:57,358 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:15:21,372 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1700.0', 'user_lat': '70.17094', 'user_lon': '24.93087')>
+2025-01-25 10:16:43,344 - dopc_service_49156 - INFO - Starting DOPC service on port 49156
+2025-01-25 10:17:17,632 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.1598838232291', 'user_lon': '24.94352660486602')>
+2025-01-25 10:17:17,632 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,632 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,677 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.168503012619865', 'user_lon': '24.932413122402195')>
+2025-01-25 10:17:17,678 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,678 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,680 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.18786028900417', 'user_lon': '24.983122973189406')>
+2025-01-25 10:17:17,681 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,681 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,683 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18821434684297', 'user_lon': '24.980888446301574')>
+2025-01-25 10:17:17,683 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,684 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,687 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.1718388600429', 'user_lon': '24.93309688716839')>
+2025-01-25 10:17:17,688 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,688 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,689 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16675634389428', 'user_lon': '24.92506806563805')>
+2025-01-25 10:17:17,689 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,689 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,691 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.17043350084699', 'user_lon': '24.931066399746456')>
+2025-01-25 10:17:17,692 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,692 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,693 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.16913330007414', 'user_lon': '24.93294267301835')>
+2025-01-25 10:17:17,693 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,693 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,698 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.184755636668626', 'user_lon': '24.952253308708244')>
+2025-01-25 10:17:17,698 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,698 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,700 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.189754575038', 'user_lon': '24.98189622807403')>
+2025-01-25 10:17:17,700 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:17:17,700 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 10:17:17,941 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:17:17,964 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:17:17,966 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:17:17,967 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:17:17,975 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:17:17,992 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:17:17,999 - dopc_service_49156 - ERROR - Failed to get static data: Request failed with status: 429
+2025-01-25 10:18:16,588 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('cart_value': '1000', 'user_lat': '60.17094', 'user_lon': '24.93087')>
+2025-01-25 10:19:37,658 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.27094', 'user_lon': '24.93087')>
+2025-01-25 10:19:37,658 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 10:19:37,658 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:18:43,924 - dopc_service_49156 - INFO - Starting DOPC service on port 49156
+2025-01-25 18:19:07,481 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.183644270636314', 'user_lon': '24.950623688938027')>
+2025-01-25 18:19:07,481 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,481 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,531 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.188730373385376', 'user_lon': '24.982394734072788')>
+2025-01-25 18:19:07,531 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,531 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,545 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18953450539188', 'user_lon': '24.98116261419753')>
+2025-01-25 18:19:07,545 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,545 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,546 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18341533738741', 'user_lon': '24.951842870552007')>
+2025-01-25 18:19:07,547 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,547 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,553 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.18627809114428', 'user_lon': '24.950800787935286')>
+2025-01-25 18:19:07,553 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,553 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,558 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.167635962695414', 'user_lon': '24.92619327427334')>
+2025-01-25 18:19:07,558 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,558 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,567 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.15920542393733', 'user_lon': '24.94437977946513')>
+2025-01-25 18:19:07,567 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,567 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,568 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18710582650847', 'user_lon': '24.982038140839556')>
+2025-01-25 18:19:07,568 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,568 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,569 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18531207730664', 'user_lon': '24.950565509207724')>
+2025-01-25 18:19:07,570 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,570 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:07,570 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16799410809847', 'user_lon': '24.92511984427791')>
+2025-01-25 18:19:07,571 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:07,571 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,041 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.167604461310255', 'user_lon': '24.9254177304313')>
+2025-01-25 18:19:11,041 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,041 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,048 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.1684849275432', 'user_lon': '24.925968056727385')>
+2025-01-25 18:19:11,048 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,049 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,084 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.16937957983652', 'user_lon': '24.93302886287367')>
+2025-01-25 18:19:11,084 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,084 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,093 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.18499370407909', 'user_lon': '24.949009836933303')>
+2025-01-25 18:19:11,093 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,093 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,109 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.184641912583025', 'user_lon': '24.949869696626372')>
+2025-01-25 18:19:11,109 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,109 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,124 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18958078724362', 'user_lon': '24.98400437323328')>
+2025-01-25 18:19:11,124 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,124 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,142 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16905990944252', 'user_lon': '24.931073429871386')>
+2025-01-25 18:19:11,142 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,142 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,148 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.17013815275724', 'user_lon': '24.924057137319704')>
+2025-01-25 18:19:11,148 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,148 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,156 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.183624413488644', 'user_lon': '24.951523513480335')>
+2025-01-25 18:19:11,156 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,157 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:19:11,162 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.15779069861777', 'user_lon': '24.94406430730221')>
+2025-01-25 18:19:11,162 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:19:11,163 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 18:32:34,790 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.17094', 'user_lon': '24.93087')>
+2025-01-25 18:32:34,790 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 18:32:34,790 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:43:49,576 - dopc_service_49156 - INFO - Starting DOPC service on port 49156
+2025-01-25 21:44:04,338 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.16985679311551', 'user_lon': '24.930625222661167')>
+2025-01-25 21:44:04,338 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,338 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,353 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.157927729583214', 'user_lon': '24.94502307108951')>
+2025-01-25 21:44:04,353 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,353 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,386 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16984298504452', 'user_lon': '24.931183380238966')>
+2025-01-25 21:44:04,386 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,386 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,394 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.17030352796018', 'user_lon': '24.926666993968745')>
+2025-01-25 21:44:04,394 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,394 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,395 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18572824876036', 'user_lon': '24.952204530590432')>
+2025-01-25 21:44:04,395 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,395 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,397 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.188386440028324', 'user_lon': '24.981098876671517')>
+2025-01-25 21:44:04,397 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,398 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,398 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.18760800497456', 'user_lon': '24.981672000873967')>
+2025-01-25 21:44:04,398 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,399 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,401 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.1672685018711', 'user_lon': '24.926494304473064')>
+2025-01-25 21:44:04,401 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,401 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,402 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.1877319996991', 'user_lon': '24.98210007326219')>
+2025-01-25 21:44:04,402 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,402 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:04,415 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16849127638532', 'user_lon': '24.931604567807174')>
+2025-01-25 21:44:04,415 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:04,415 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,474 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.167580087768556', 'user_lon': '24.925029984195636')>
+2025-01-25 21:44:07,474 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,474 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,496 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.186664611506146', 'user_lon': '24.9811231570981')>
+2025-01-25 21:44:07,496 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,496 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,520 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.15781659091643', 'user_lon': '24.943809059242096')>
+2025-01-25 21:44:07,520 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,520 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,527 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.184865775170486', 'user_lon': '24.951738017609415')>
+2025-01-25 21:44:07,527 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,527 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,539 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.17002971107172', 'user_lon': '24.92407108901945')>
+2025-01-25 21:44:07,539 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,539 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,550 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18704782130352', 'user_lon': '24.951517451472807')>
+2025-01-25 21:44:07,550 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,550 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,561 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.17129481945202', 'user_lon': '24.92962439465806')>
+2025-01-25 21:44:07,561 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,561 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,570 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18487475034691', 'user_lon': '24.948990649459596')>
+2025-01-25 21:44:07,570 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,570 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,582 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.156557430522476', 'user_lon': '24.9443401688471')>
+2025-01-25 21:44:07,583 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,583 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:07,591 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18692136341711', 'user_lon': '24.98165570467747')>
+2025-01-25 21:44:07,592 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:07,592 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,581 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.18695646098922', 'user_lon': '24.982231895439448')>
+2025-01-25 21:44:10,581 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,581 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,605 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.189463369168884', 'user_lon': '24.98330198516778')>
+2025-01-25 21:44:10,605 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,605 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,631 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.15696868423181', 'user_lon': '24.944550006682174')>
+2025-01-25 21:44:10,631 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,632 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,646 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.15709535156417', 'user_lon': '24.945154361669793')>
+2025-01-25 21:44:10,647 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,647 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,657 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.17058488503772', 'user_lon': '24.933142531285526')>
+2025-01-25 21:44:10,658 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,658 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,681 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.15866858540906', 'user_lon': '24.94642997404288')>
+2025-01-25 21:44:10,681 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,681 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,690 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18832864426116', 'user_lon': '24.980980669834278')>
+2025-01-25 21:44:10,691 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,691 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,699 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.189793109553484', 'user_lon': '24.98135410002829')>
+2025-01-25 21:44:10,700 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,700 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,713 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18624365702188', 'user_lon': '24.95044511767243')>
+2025-01-25 21:44:10,713 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,713 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:10,717 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.171716471032276', 'user_lon': '24.931735873638317')>
+2025-01-25 21:44:10,718 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:10,718 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,686 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.15741174276527', 'user_lon': '24.94590517813869')>
+2025-01-25 21:44:13,686 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,686 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,716 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.16875961781363', 'user_lon': '24.929992997529045')>
+2025-01-25 21:44:13,716 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,717 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,737 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.1677781254813', 'user_lon': '24.925650466014467')>
+2025-01-25 21:44:13,737 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,737 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,759 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18544816503765', 'user_lon': '24.949518660697933')>
+2025-01-25 21:44:13,759 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,759 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,770 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.170463232949494', 'user_lon': '24.924880356280134')>
+2025-01-25 21:44:13,771 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,771 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,799 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.170228585388', 'user_lon': '24.924489107441023')>
+2025-01-25 21:44:13,799 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,800 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,808 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.15996283170875', 'user_lon': '24.94486402251595')>
+2025-01-25 21:44:13,809 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,809 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,823 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18719508360267', 'user_lon': '24.983819518772936')>
+2025-01-25 21:44:13,824 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,824 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,831 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18873456315217', 'user_lon': '24.981729129024767')>
+2025-01-25 21:44:13,831 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,832 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:13,839 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.15797229792809', 'user_lon': '24.94541374147973')>
+2025-01-25 21:44:13,840 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:13,840 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,791 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.17120762494289', 'user_lon': '24.93066677680349')>
+2025-01-25 21:44:16,792 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,792 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,827 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.18666313380258', 'user_lon': '24.980934262891722')>
+2025-01-25 21:44:16,827 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,827 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,842 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18367463188265', 'user_lon': '24.949412190605628')>
+2025-01-25 21:44:16,842 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,842 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,865 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.189648901281096', 'user_lon': '24.983112404210303')>
+2025-01-25 21:44:16,866 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,866 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,881 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18786291983038', 'user_lon': '24.981563710810207')>
+2025-01-25 21:44:16,881 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,881 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,912 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18664363039911', 'user_lon': '24.98094692223177')>
+2025-01-25 21:44:16,912 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,912 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,923 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.169156636702255', 'user_lon': '24.926550245124183')>
+2025-01-25 21:44:16,924 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,924 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,937 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18622000772107', 'user_lon': '24.98328505416639')>
+2025-01-25 21:44:16,938 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,938 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,950 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.18700094973444', 'user_lon': '24.982962647933938')>
+2025-01-25 21:44:16,950 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,951 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:16,958 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18696343045511', 'user_lon': '24.980777283044283')>
+2025-01-25 21:44:16,959 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:16,959 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:19,901 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.1704519450816', 'user_lon': '24.93043049069904')>
+2025-01-25 21:44:19,901 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:19,901 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:19,936 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.186621818892284', 'user_lon': '24.951707137069036')>
+2025-01-25 21:44:19,936 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:19,936 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:19,947 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.17083777208117', 'user_lon': '24.9302397041153')>
+2025-01-25 21:44:19,947 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:19,947 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:19,976 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.167730397568235', 'user_lon': '24.926169560080094')>
+2025-01-25 21:44:19,976 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:19,976 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:19,988 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.16987853439961', 'user_lon': '24.92726259792677')>
+2025-01-25 21:44:19,989 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:19,989 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:20,019 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.169197736200246', 'user_lon': '24.93241648858248')>
+2025-01-25 21:44:20,019 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:20,019 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:20,035 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.1861411548158', 'user_lon': '24.983658732812756')>
+2025-01-25 21:44:20,035 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:20,035 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:20,044 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.15679708583993', 'user_lon': '24.94283622407584')>
+2025-01-25 21:44:20,044 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:20,045 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:20,065 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16695547915637', 'user_lon': '24.92395969605841')>
+2025-01-25 21:44:20,065 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:20,066 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:20,074 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.184125000906825', 'user_lon': '24.952736280788624')>
+2025-01-25 21:44:20,075 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:20,075 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,013 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18576892098058', 'user_lon': '24.951829530365817')>
+2025-01-25 21:44:23,013 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,013 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,048 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.16823804962532', 'user_lon': '24.925929451092863')>
+2025-01-25 21:44:23,048 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,048 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,059 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.17047846509016', 'user_lon': '24.925409287248527')>
+2025-01-25 21:44:23,061 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,061 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,084 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18405232153424', 'user_lon': '24.949857954478745')>
+2025-01-25 21:44:23,084 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,084 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,098 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16854339769024', 'user_lon': '24.927303066289728')>
+2025-01-25 21:44:23,098 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,098 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,124 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.1716110176336', 'user_lon': '24.931658922259363')>
+2025-01-25 21:44:23,124 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,124 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,145 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.18605636256464', 'user_lon': '24.950106528839346')>
+2025-01-25 21:44:23,145 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,145 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,157 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.15716368098886', 'user_lon': '24.943282733421576')>
+2025-01-25 21:44:23,158 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,158 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,175 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18555684201174', 'user_lon': '24.950729081751902')>
+2025-01-25 21:44:23,176 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,176 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:23,185 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.16908756175487', 'user_lon': '24.929750836092353')>
+2025-01-25 21:44:23,185 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:23,186 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,124 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '3000', 'user_lat': '60.15855268957', 'user_lon': '24.942925427890998')>
+2025-01-25 21:44:26,124 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,124 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,164 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16721227535001', 'user_lon': '24.924796359178163')>
+2025-01-25 21:44:26,164 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,164 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,177 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.15704416760551', 'user_lon': '24.94553221703259')>
+2025-01-25 21:44:26,178 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,178 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,192 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.17007703711173', 'user_lon': '24.926675578674757')>
+2025-01-25 21:44:26,192 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,192 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,206 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.18366718794294', 'user_lon': '24.949227662070463')>
+2025-01-25 21:44:26,206 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,207 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,232 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2500', 'user_lat': '60.15640729048721', 'user_lon': '24.94309661385103')>
+2025-01-25 21:44:26,233 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,233 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,249 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.18717423230648', 'user_lon': '24.948993110651806')>
+2025-01-25 21:44:26,250 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,250 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,267 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '2000', 'user_lat': '60.16878829693969', 'user_lon': '24.93153412585355')>
+2025-01-25 21:44:26,267 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,267 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,281 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1500', 'user_lat': '60.18602665990182', 'user_lon': '24.949514013484666')>
+2025-01-25 21:44:26,282 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,282 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
+2025-01-25 21:44:26,294 - dopc_service_49156 - INFO - Received request with params: <MultiDictProxy('venue_slug': 'home-assignment-venue-helsinki', 'cart_value': '1000', 'user_lat': '60.17095455083416', 'user_lon': '24.932014651481136')>
+2025-01-25 21:44:26,295 - dopc_service_49156 - INFO - Initialized DOPC calculator
+2025-01-25 21:44:26,295 - dopc_service_49156 - INFO - Processing request for venue: home-assignment-venue-helsinki
